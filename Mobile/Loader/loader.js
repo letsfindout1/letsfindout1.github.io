@@ -1,7 +1,7 @@
  setTimeout(function(){ 
         document.getElementById('app').style['display'] = 'block';
         document.getElementById('scene').style['display'] = 'none';
-    }, 12000);
+    }, 10000);
 var canvas = document.querySelector("#scene"),
   ctx = canvas.getContext("2d"),
   particles = [],
