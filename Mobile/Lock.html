@@ -16,7 +16,7 @@
   <link href="./assets/favicon.ico" rel="icon">
 
   <title>OneByeZero</title>  
-
+  <script src="Script1.js"></script>
 <link href="./main.3f6952e4.css" rel="stylesheet"></head>
     <body>
      
@@ -47,38 +47,7 @@
           </div>
            
         </form>
-        <script language="javascript">
-          document.onkeydown = function(e) {
-        if (e.ctrlKey && 
-            (e.keyCode === 67 || 
-             e.keyCode === 86 || 
-             e.keyCode === 85 || 
-             e.keyCode === 117)) {
-            return false;
-        } else {
-            return true;
-        }
-};
-$(document).keypress("u",function(e) {
-  if(e.ctrlKey)
-  {
-return false;
-}
-else
-{
-return true;
-}
-});
-            function check(form) { /*function to check userid & password*/
-                /*the following code checkes whether the entered userid and password are matching*/
-                if(form.userid.value == "2" && form.pswrd.value == "2") {
-                    window.open('./Blogs.html')/*opens the target page while Id & password matches*/
-                }
-                else {
-                    alert("Error Password or Username")/*displays error message*/
-                }
-            }
-        </script>
+   
        
     </body>
 </html>
